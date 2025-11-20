@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{4A142EE7-AE2E-4547-922F-69465B68DEAB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header\Base">
+      <UniqueIdentifier>{FF8B6C5B-D496-4D2A-A5A5-1B7680B7453F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Engine">
+      <UniqueIdentifier>{80A3CBEF-C9BC-475D-A8A3-0070A968D045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Utils">
+      <UniqueIdentifier>{29223C3A-DE1C-4D01-9A37-C4A42622D58F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Objects">
+      <UniqueIdentifier>{7A6F7B56-13AA-442B-B54E-168B6302B79A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Enum">
+      <UniqueIdentifier>{E1777312-159F-4C2F-87B9-8F5401592ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\spell">
+      <UniqueIdentifier>{06F1FC81-6EB3-4F96-B16D-9C03C9A218E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6D5EEB12-2EC7-44A3-9A65-7CC8751505B9}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Base">
+      <UniqueIdentifier>{5ACB0B06-7560-46D9-913E-DB26B00F2562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Objects">
+      <UniqueIdentifier>{E6A5ED2F-53B1-4C7B-8546-00A6EEF1CC4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{CE4D89EB-DC6E-4D13-AC9E-5C86AB9A12C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS">
+      <UniqueIdentifier>{C8FA4660-2594-44AC-BF01-D3CA20DF1C61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT">
+      <UniqueIdentifier>{0207422B-45CB-4517-B4A5-E320E49DF36C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT\libmem++">
+      <UniqueIdentifier>{38AA5E7F-1E59-4A7E-9AD0-0AED925121A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT\ImGui">
+      <UniqueIdentifier>{A8D8BE04-ED79-4F50-B621-5AF00B8E61CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT\ImGui\dx9">
+      <UniqueIdentifier>{B4B2A6C8-8458-43B5-BA31-9244382A6D18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT\ImGui\win32">
+      <UniqueIdentifier>{A09C1092-EAA5-4F9E-896B-F6A810181E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\INIT\hooks">
+      <UniqueIdentifier>{9AD085A2-8041-4986-BF5A-CE837FF8B0B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\ImGui">
+      <UniqueIdentifier>{BDBB65D8-BAEC-451D-8EE7-6333DBF78A95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\ImGui\dx9">
+      <UniqueIdentifier>{874ECE34-6DB2-4664-A631-AD281D71273D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\ImGui\win32">
+      <UniqueIdentifier>{D7CE8DB5-BC79-4E30-8891-CDCA5370AB52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USELESS\libmem++">
+      <UniqueIdentifier>{2F7E73DE-941D-49E2-AE5A-7A36D9B2FB1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Buff &amp; AI">
+      <UniqueIdentifier>{A8D5E079-867E-40A4-BF38-5EEF7703DF4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Utility">
+      <UniqueIdentifier>{893D96DF-B4DA-45DE-995F-0D88B0843C8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Buff &amp; AI">
+      <UniqueIdentifier>{32969613-F35A-44A3-9FAB-568664EC5990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Header\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Header\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ESpellSlot.h">
+      <Filter>Header\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellData.h">
+      <Filter>Header\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellSlot.h">
+      <Filter>Header\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellInfo.h">
+      <Filter>Header\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpellBook.h">
+      <Filter>Header\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\dx9\imgui_impl_dx9.h">
+      <Filter>USELESS\ImGui\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>USELESS\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\win32\imgui_impl_win32.h">
+      <Filter>USELESS\ImGui\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellCastInfo.h">
+      <Filter>Header\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleManager.h">
+      <Filter>Header\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbwalker.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libmem++\libmem.hpp">
+      <Filter>USELESS\libmem++</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuffManager.h">
+      <Filter>Header\Buff &amp; AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuffEntry.h">
+      <Filter>Header\Buff &amp; AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>USELESS\INIT\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="charcolor.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImRender.hpp">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Header\Buff &amp; AI</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoL base.cpp">
+      <Filter>Main\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Main\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\dx9\imgui_impl_dx9.cpp">
+      <Filter>USELESS\INIT\ImGui\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>USELESS\INIT\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>USELESS\INIT\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>USELESS\INIT\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\win32\imgui_impl_win32.cpp">
+      <Filter>USELESS\INIT\ImGui\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleManager.cpp">
+      <Filter>Main\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\libmem++\libmem.cpp">
+      <Filter>USELESS\INIT\libmem++</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>USELESS\INIT\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>USELESS\INIT\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuffManager.cpp">
+      <Filter>Main\Buff &amp; AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuffEntry.cpp">
+      <Filter>Main\Buff &amp; AI</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>USELESS\INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImRender.cpp">
+      <Filter>Main\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Main\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Main\Buff &amp; AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Orbwalker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
